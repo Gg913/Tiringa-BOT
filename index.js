@@ -111,9 +111,9 @@ const ZeksKey = "adquira a sua no site https://zeks.xyz/"
 //_VCARD DONO DO BOT
 const vcard = 'BEGIN:VCARD\n' +
     'VersãoON:3.0\n' +
-    'FN:Italu🧙‍♂️\n' +
+    'FN:Gringo〽️\n' +
     'ORG:Dono do Tiringa;\n' +
-    'TEL;type=CELL;type=VOICE;waid=557499510904:+55 (74) 9951-0904\n' +
+    'TEL;type=CELL;type=VOICE;waid=5586994903589:+55 (86) 99490-3589\n' +
     'END:VCARD'
 
     //_CONEXÃO WHATSAPP WEB 
@@ -590,7 +590,7 @@ Use o comando ${prefix}menu para listar meus comandos
 
             //_TIPO DE USUÁRIO
             if (isOwner) {
-                var tuser = 'El Italu🕴🏽'
+                var tuser = 'gringo🕴🏽'
             } else if (isPremium) {
                 var tuser = 'Premium😎'
             } else if (sender == isUser) {
@@ -861,7 +861,7 @@ Use o comando ${prefix}menu para listar meus comandos
                             quoted: mek
                         })
                     } */
-                if (budy.match(`@557499896089`)) {
+                if (budy.match(`@86994903589`)) {
                     result = fs.readFileSync(`./src/cofoi.webp`)
                     tiringa.sendMessage(from, result, sticker, {
                         quoted: mek
